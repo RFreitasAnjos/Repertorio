@@ -1,0 +1,76 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right top, rgb(138, 36, 138)50% ,white 50%);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 150px auto;
+    background-attachment: fixed;
+}
+form{
+    background-color: rgb(255 255 255 / 10%) ;
+    backdrop-filter: blur(5px);
+    max-height: 300px;
+    height: 300px;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+input:hover{
+    box-shadow: 10px 10px 10px 10px rgb(0 0 0 /10%);
+    width: 350px;
+    transition: 1s;
+}
+input::placeholder{
+    color: black;
+}
+
+input{
+    height: 25px;
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: transparent;
+    color: black;
+    background-color: violet;
+    text-decoration: black;
+    font-family: arial;
+}
+label{
+    color: black;
+    background-color: transparent;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 280px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: violet;
+    border: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 280px;
+}
+
+
+span{
+    font-family: arial;
+}
